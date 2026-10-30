@@ -1,0 +1,9 @@
+numpy>=1.24
+scipy>=1.10
+pyyaml>=6.0
+python-dotenv>=1.0
+# Real LLM backends (all providers are called through the OpenAI-compatible protocol).
+# Not needed for --provider mock or for the tests.
+openai>=1.40
+# Development
+pytest>=7.4

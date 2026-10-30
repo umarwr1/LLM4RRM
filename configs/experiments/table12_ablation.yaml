@@ -1,0 +1,17 @@
+# Table 12: multi-agent decomposition and evaluator at (20.0,5.0), N=16.
+base:
+  system.r_min_mbps: 20.0
+  system.p_max_w: 5.0
+rows:
+  K2:
+    framework.num_solvers: 2
+    framework.use_evaluator: true
+  K1:
+    framework.num_solvers: 1
+    framework.use_evaluator: true
+  K2_no_evaluator:
+    framework.num_solvers: 2
+    framework.use_evaluator: false
+  K1_no_evaluator:
+    framework.num_solvers: 1
+    framework.use_evaluator: false

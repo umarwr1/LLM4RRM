@@ -1,0 +1,15 @@
+# Table 6: LLM backbones at (3.0,1.0), N=16. Requires the matching API keys in the environment.
+base:
+  system.r_min_mbps: 3.0
+  system.p_max_w: 1.0
+rows:
+  gpt-5-mini:
+    llm.provider: gpt-5-mini
+  gpt-4.1-mini:
+    llm.provider: gpt-4.1-mini
+  grok-4-fast:
+    llm.provider: grok-4-fast
+  gemini-2.5-flash:
+    llm.provider: gemini-2.5-flash
+  llama-4-scout:
+    llm.provider: llama-4-scout

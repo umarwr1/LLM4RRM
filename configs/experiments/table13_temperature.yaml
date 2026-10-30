@@ -1,0 +1,13 @@
+# Table 13: sampling temperature at (20.0,5.0), N=16.
+base:
+  system.r_min_mbps: 20.0
+  system.p_max_w: 5.0
+rows:
+  T0:
+    llm.temperature: 0
+  T0.3:
+    llm.temperature: 0.3
+  T0.7:
+    llm.temperature: 0.7
+  T1.0:
+    llm.temperature: 1.0

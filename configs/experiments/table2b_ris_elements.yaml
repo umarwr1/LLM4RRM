@@ -1,0 +1,23 @@
+# Table 2(b): scalability in N at (Rmin,Pmax)=(3.0,1.0).
+base:
+  system.r_min_mbps: 3.0
+  system.p_max_w: 1.0
+rows:
+  K1_N16:
+    system.N: 16
+    framework.num_solvers: 1
+  K2_N16:
+    system.N: 16
+    framework.num_solvers: 2
+  K1_N32:
+    system.N: 32
+    framework.num_solvers: 1
+  K2_N32:
+    system.N: 32
+    framework.num_solvers: 2
+  K1_N64:
+    system.N: 64
+    framework.num_solvers: 1
+  K2_N64:
+    system.N: 64
+    framework.num_solvers: 2

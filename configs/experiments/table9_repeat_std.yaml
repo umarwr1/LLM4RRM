@@ -1,0 +1,17 @@
+# Table 9: std of post-projection sum-rate over repeated runs on the SAME channel. 10 channels x 10 repeats.
+base:
+  experiment.n_instances: 10
+  experiment.repeats: 10
+rows:
+  R3.0_P1.0:
+    system.r_min_mbps: 3.0
+    system.p_max_w: 1.0
+  R5.0_P1.5:
+    system.r_min_mbps: 5.0
+    system.p_max_w: 1.5
+  R17.5_P2.0:
+    system.r_min_mbps: 17.5
+    system.p_max_w: 2.0
+  R20.0_P5.0:
+    system.r_min_mbps: 20.0
+    system.p_max_w: 5.0

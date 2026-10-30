@@ -1,0 +1,35 @@
+# Table 2(a): LLM4RRM (K=2) and LLM4RRM (K=1) across (Rmin, Pmax), N=16.
+base: {}
+rows:
+  K1_R3.0_P1.0:
+    system.r_min_mbps: 3.0
+    system.p_max_w: 1.0
+    framework.num_solvers: 1
+  K2_R3.0_P1.0:
+    system.r_min_mbps: 3.0
+    system.p_max_w: 1.0
+    framework.num_solvers: 2
+  K1_R5.0_P1.5:
+    system.r_min_mbps: 5.0
+    system.p_max_w: 1.5
+    framework.num_solvers: 1
+  K2_R5.0_P1.5:
+    system.r_min_mbps: 5.0
+    system.p_max_w: 1.5
+    framework.num_solvers: 2
+  K1_R17.5_P2.0:
+    system.r_min_mbps: 17.5
+    system.p_max_w: 2.0
+    framework.num_solvers: 1
+  K2_R17.5_P2.0:
+    system.r_min_mbps: 17.5
+    system.p_max_w: 2.0
+    framework.num_solvers: 2
+  K1_R20.0_P5.0:
+    system.r_min_mbps: 20.0
+    system.p_max_w: 5.0
+    framework.num_solvers: 1
+  K2_R20.0_P5.0:
+    system.r_min_mbps: 20.0
+    system.p_max_w: 5.0
+    framework.num_solvers: 2

@@ -1,0 +1,18 @@
+# Table 7: CSI estimation error eta at (5.0,1.5), N=16, 20 channels. LLM sees perturbed CSI; evaluation/projection use true CSI.
+base:
+  system.r_min_mbps: 5.0
+  system.p_max_w: 1.5
+  experiment.n_instances: 20
+rows:
+  eta0:
+    framework.csi_error_eta: 0
+  eta0.05:
+    framework.csi_error_eta: 0.05
+  eta0.1:
+    framework.csi_error_eta: 0.1
+  eta0.2:
+    framework.csi_error_eta: 0.2
+  eta0.4:
+    framework.csi_error_eta: 0.4
+  eta0.6:
+    framework.csi_error_eta: 0.6

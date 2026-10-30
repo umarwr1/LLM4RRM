@@ -1,0 +1,23 @@
+# Table 3: number of few-shot examples at (5.0,1.5), N=16.
+base:
+  system.r_min_mbps: 5.0
+  system.p_max_w: 1.5
+rows:
+  K1_shots1:
+    framework.n_fewshot: 1
+    framework.num_solvers: 1
+  K2_shots1:
+    framework.n_fewshot: 1
+    framework.num_solvers: 2
+  K1_shots3:
+    framework.n_fewshot: 3
+    framework.num_solvers: 1
+  K2_shots3:
+    framework.n_fewshot: 3
+    framework.num_solvers: 2
+  K1_shots5:
+    framework.n_fewshot: 5
+    framework.num_solvers: 1
+  K2_shots5:
+    framework.n_fewshot: 5
+    framework.num_solvers: 2

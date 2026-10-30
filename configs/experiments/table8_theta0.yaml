@@ -1,0 +1,14 @@
+# Table 8: initial hyper-parameters theta(0) at (5.0,1.5), N=16.
+base:
+  system.r_min_mbps: 5.0
+  system.p_max_w: 1.5
+rows:
+  mu0.001_gamma0.99:
+    projection.mu0: 0.001
+    projection.gamma0: 0.99
+  mu0.01_gamma0.9:
+    projection.mu0: 0.01
+    projection.gamma0: 0.9
+  mu0.1_gamma0.7:
+    projection.mu0: 0.1
+    projection.gamma0: 0.7

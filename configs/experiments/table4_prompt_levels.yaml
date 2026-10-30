@@ -1,0 +1,19 @@
+# Tables 4/5: cumulative prompt levels 1..7 at (20.0,5.0), N=16.
+base:
+  system.r_min_mbps: 20.0
+  system.p_max_w: 5.0
+rows:
+  prompt1:
+    framework.prompt_level: 1
+  prompt2:
+    framework.prompt_level: 2
+  prompt3:
+    framework.prompt_level: 3
+  prompt4:
+    framework.prompt_level: 4
+  prompt5:
+    framework.prompt_level: 5
+  prompt6:
+    framework.prompt_level: 6
+  prompt7:
+    framework.prompt_level: 7

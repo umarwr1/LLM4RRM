@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "llm4rrm"
+version = "0.1.0"
+description = "LLM4RRM: multi-agent feedback-driven LLM framework for constrained resource allocation (STAR-RIS beamforming use case)"
+requires-python = ">=3.9"
+dependencies = ["numpy>=1.24", "scipy>=1.10", "pyyaml>=6.0", "python-dotenv>=1.0"]
+
+[project.optional-dependencies]
+llm = ["openai>=1.40"]
+dev = ["pytest>=7.4"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
